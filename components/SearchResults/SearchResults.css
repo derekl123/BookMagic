@@ -1,0 +1,21 @@
+
+.box_container{
+  background-color: #32746D;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  -webkit-box-shadow: 7px 6px 6px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 6px 6px 1px rgba(0,0,0,0.75);
+box-shadow: 7px 6px 6px 1px rgba(0,0,0,0.75);
+border: solid 1px #222;
+border-radius: 10px;
+flex-basis: 35%;
+}
+
+.title_container{
+  width: 300px;
+  font-size: 2rem;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: .5rem;
+}

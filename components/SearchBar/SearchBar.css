@@ -1,0 +1,66 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.page_title{
+    color: #fff;
+    margin-right: 2rem;
+    padding: .25rem;
+    font-size: 3rem;
+    font-family: 'Noto Sans HK', sans-serif;
+    letter-spacing: .1rem;
+  }
+
+.search_container{
+    padding: 1rem;
+    text-align: center;
+    background-color: #32746D;
+    width: 45%;
+    padding: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.search_field{
+    padding: 1rem;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+.origin_search {
+    padding: .5rem;
+    width: 200px;
+    display: inline-block;
+}
+
+.search_button{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    color: #fff;
+    background-color: #01200F;
+    letter-spacing: .1rem;
+}
+
+
+.search_button:hover{
+    background: #FFF;
+    color: black;
+}
+.search_button:active{
+    transform: translateY(1px);
+}
+

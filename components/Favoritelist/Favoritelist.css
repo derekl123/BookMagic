@@ -1,0 +1,28 @@
+.Favorites {
+  margin-top: 4rem;
+  background-color: #32746D;
+    display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  -webkit-box-shadow: 7px 6px 6px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 6px 6px 1px rgba(0,0,0,0.75);
+box-shadow: 7px 6px 6px 1px rgba(0,0,0,0.75);
+border-radius: 10px;
+flex-basis: 35%;
+}
+
+
+
+.Favorites input {
+  width: 30%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid #fff;
+  font-size: 2rem;
+  color: #fff;
+}
+
+
+
